@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scare=1">
+	<title>Canvas</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+let c = document.getElementById("myCanvas");
+let cxt =c.getContext("2d");
+cxt.fillStyle ="#ff0000";
+cxt.fillRect(0,0,75, 75);
+cxt.fillStyle ="#00ff00";
+cxt.fillRect(10,10 ,75, 75);
+cxt.fillStyle ="#0000ff";
+cxt.fillRect(20,20,75, 75);
+strokeRect(x,y,ширина,висота);
+fillRect(x,y,ширина,висота);
+</script>
+
+</body> 
+</html>
