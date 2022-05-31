@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+let month= +prompt("Введите цифру от 1 до 12:","");
+
+document.write("ви вели:"+ month +"<br>");
+
+if (month== 12 || month== 1 || month== 2) {
+	document.write(" Це місяць зима");
+}
+else if (month== 3 || month== 4 || month==5) {
+	document.write("Це місяць весна");
+}
+else if (month== 6 || month == 7 || month== 8) {
+	document.write("Це місяць літо");
+}
+else if (month== 9 || month== 10 || month== 11) {
+	document.write("Це місяць осінь");
+}
+else{
+	document.write("ERROR-> нажмите F5 и введите цифру от 1 до 12");
+}
+</script>
+</body>
+</html>
